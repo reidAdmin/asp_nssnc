@@ -1,0 +1,1155 @@
+/*	Neuse Sports Shop Website www.neusesportshop.com
+    Designed by CyberSharks
+	version 3.4.5
+	22 January 2015
+	copyright (c) 2015 CyberSharks.net  (www.cybersharks.net)
+*/
+
+@charset "utf-8";
+
+ /* ~~ Main settings ~~*/
+ 
+
+body {
+	margin: 0 auto;
+	padding: 0px;
+	font-family: oswald sans-serif;
+	font-size: 13px;
+	color: #000000;
+	background: url(..//images/default/cedar-metal-top-header-tile.gif) repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+	text-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+}
+
+h1 {
+	font-family: oswald, sans-serif;
+	font-size:x-large;
+}
+
+h3 {
+	font-family: oswald, sans-serif;
+	font-size:medium;
+}
+
+p { 
+	font-family: oswald, sans-serif;
+}
+
+.main_wrapper  { margin:0px; padding:0px;}
+	
+.header_wrapper { margin:0px; padding:0px;}
+.mid_wrapper { margin:0px; padding:0px;}
+.footer_wrapper {
+	margin: 0px;
+	padding: 0px;
+	background-color: #999999;
+	color: #FFF;
+	vertical-align: middle;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
+}
+
+.FL { float:left;}
+.FR { float:right;}
+.width { width:100%;}
+.clear { clear:both;}
+.width_wrapper {
+	max-width: 1000px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+ /* ~~ Header section ~~*/
+
+.logo_row { margin:0px; padding:50px 0 40px 0;}
+.logo { float:left; margin:0px; padding:0px;}
+.logo_right { float:right; width:70%; padding-top:10px;}
+.logo img {width:100%}
+.custLinks { float:center; padding-left:115px;}
+.welcome_msg { float:right; font-size:14px; color:#b3b3b3; font-weight:bold;}
+ul.topLink { float:right; margin:0px; padding:0px;}
+ul.topLink li { float:left; margin:0px; padding:0px  0px 0px  15px; list-style:none;}
+ul.topLink li a { font-size:12px; color:#777373; font-weight:bold; text-decoration:none; text-transform:uppercase;}
+ul.topLink li a:hover { text-decoration:underline;}
+
+.topNav_wrapper { border-top:1px solid #e5e5e5; border-bottom:3px solid #e5e5e5; min-height:52px;}
+
+.icon_phone {padding-right:25px;}
+.basket basket_dis {padding-top:15px; }
+.service_section {padding-top:20px;}
+
+ /* ~~ Below header section ~~*/
+
+
+.basket { float:right; background:url(../images/cart_icon.png) no-repeat 0 3px; margin-top:14px; padding:5px 5px 5px 25px}
+.basket a { color:#000; font-size:13px; color:#000; text-transform:uppercase; text-decoration:none;}
+.searchBox { float:right; width:160px; position:relative; margin:15px 0 0 20px;}
+.searchBox form { margin:0px; padding:0px;}
+.searchBox Input.search_look { margin:0px; padding:3px 25px 3px 3px; color:#646464; border:1px solid #e5e5e5;  width:100%; height:22px; line-height:22px; z-index:1; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */}
+.searchBox .search_btn { margin:0px; padding:0px; width:25px; height:22px; background:url(../images/search_icon.png) no-repeat center 2px; position:absolute; right:0px; top:0px; text-indent:-9999px; cursor:pointer; border:none;}
+
+.service_section { border-bottom:1px solid #e5e5e5; padding:15px 0;}
+.icon_refresh { float:left; background:url(../images/message_icon.png) no-repeat 0 0; padding-left:40px; line-height:34px; margin-right:50px; font-size:14px; color:#a2a3a5;}
+.icon_refresh strong { color:#0a9a59;}
+.icon_truck { float:left; background:url(../images/icon_truck.png) no-repeat 0 0; padding-left:40px; line-height:34px; font-size:14px; color:#a2a3a5; font-weight:bold; text-transform:uppercase;}
+
+.icon_phone {float:right; background:url(../images/icon_phone.png) no-repeat 0 0; padding-left:40px; line-height:34px; font-size:14px;}
+
+.banner_wrapper { line-height:0px;}
+.banner_wrapper img { width:100%;}
+.width_wrapper .banner_wrapper {padding-top:10px; padding-bottom:10px; }
+
+.mid_area_bg { background-size:100% 100%; padding:50px 0 125px 0;}
+.mid_area_space { padding:30px 0;}
+.shoppingCart { max-width:1000px; margin: 0 auto;}
+
+
+
+ /* ~~ Home page display ~~*/
+
+.offer-banner-section {
+    margin: auto auto 25px;
+    overflow: hidden;
+}
+
+.offer-banner-section .col {
+    float: left;
+    width:33.6%;
+}
+
+
+.offer-banner-section .col-m {
+    float: left;
+    margin-left: 2.1%;
+    width: 28.5%;
+}
+
+.offer-banner-section .col-last {
+    float: right;
+    margin-right: 0;
+    width:33.6%;
+}
+
+.offer-banner-section .col-m img { max-width:100%;}
+.offer-banner-section .col img, .offer-banner-section .col-last img { width:100%; border:1px solid #d3d3d3;}
+.nec_collection_banner { margin-top:18px; border:1px solid #d3d3d3;}
+
+
+ul.resp-tabs-list {
+    background: url(..//images/default/cedar-metal-top-header-tile.gif) repeat-x scroll left bottom rgba(0, 0, 0, 0);
+    margin: 0px auto;
+    padding:0;
+	width:100%;
+	text-align:center;
+}
+
+ul.resp-tabs-list { margin: 0 auto 20px;}
+
+.clear{ clear:both;}
+
+.resp-tabs-list li {
+    font-size: 24px;
+    display: inline-block;
+    margin: 10px;
+	padding:10px 25px;
+    list-style: none;
+    	font-family:'oswald', oswald sans-serif;
+	color:#1f50a3
+;
+	text-transform:uppercase;
+}
+
+div.item img{
+	border:10px solid #FFF;
+	padding:0px 5px 0px 5px;
+	background:#fff;
+}
+
+div.item{
+	float:left;
+	padding-bottom:10px;
+	padding-right:1px;
+}
+
+.item h2 { font-family: oswald sans-serif; font-size:16px; text-transform:uppercase; margin:0px; padding-top:2px; color: #999; text-decoration:none;
+text-align:center;}
+
+.product-items .item_box { background-color:#f6f6f8; padding:10px; }
+.product-items .item a img { width:100%; }
+
+
+.product_listing { margin:0px; padding:0;}
+.product_listing ul {margin:0px; padding:0;}
+.product_listing li {margin:0 5% 20px 0; padding:0; float:left; list-style:none; float:left; width:30%;  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */}
+.product_listing li.right { margin-right:0px;}
+
+.product_listing li .product_img_box { background-color:#f6f6f8; padding:10px; }
+.product_listing li .product_img_box a img { width:100%; }
+
+h2.green_hr_text { margin:0px; padding:0px 0px 20px 0px; font-family:'oswald',Tahoma, Aricl; color:#1f50a3
+; font-size:22px; text-transform:uppercase; line-height:normal;}
+.product_listing li a { font-size:18px; color:#010000; text-decoration:none; font-weight:normal;}
+.mid-container { max-width:1000px; margin: 0 auto;}
+.product-items { padding: 1px; }
+.product-items .item1 { width: 495px; height: 412px; float: left; }
+.product-items .item1 img {max-width:100%}
+.product-items .item2 { width: 495px; height: 199px; float: right; padding-bottom:3px;}
+.product-items .item2 img {max-width:100%}
+.product-items .item3 { width: 494px; height: 199px; float: right; padding-bottom:3px;padding-top:3px;}
+.product-items .item3 img {max-width:100%}
+.product-items .item4 { width: 257px; height: 414px; float: right; padding-left:2px; padding-bottom:3px;}
+.product-items .item4 img {max-width:100%}
+.product-items .item5 { width: 241px; height: 202px; float: left; padding-bottom:3px;}
+.product-items .item5 img {max-width:100%}
+.product-items .item6 { width: 494px; height: 428px; float: right; padding-bottom:3px;}
+.product-items .item6 img {max-width:100%}
+.product-items .item7 { width: 241px; height: 201px; float: left; z-index:99; padding-bottom: 5px;}
+.product-items .item7 img {max-width:100%}
+.product-items .item8 { width: 1000px; height: 138px; padding-top: 20px; }
+.product-items .item8 img {max-width:100%}
+
+p1 {
+	font-size:larger;
+	color:rgba(255,0,4,1.00);
+}
+
+
+
+ /* ~~ Footer section ~~*/
+
+.footer_space { padding:30px 0px 0px 0px;}
+.footer_column {
+    float: left;
+    margin-bottom: 15px;
+    width:25%;
+}
+
+
+.footer_column h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 10px;
+    text-transform: uppercase;
+  font-family:'oswald', oswald sans-serif;
+}
+
+.footer_column ul { margin:0px; padding:0;}
+.footer_column li { margin:0px; padding:0 0 4px 10px; list-style:none; background:url(../images/footer_arrow.png) no-repeat 0 5px;}
+.footer_column li a { color:#FFF; text-decoration:none;}
+.footer_column li a:hover { text-decoration:none; color:#ccc; }
+
+
+.footer_social_row { border-top:1px solid #818080; border-bottom:1px solid #818080; padding:15px; margin-bottom:15px;}
+ul.footer_social_icon { margin:0px; padding:0px; float:left;}
+ul.footer_social_icon li { margin:0px; padding:0px 10px 0 0; list-style:none; float:left;}
+ul.footer_social_icon li a { margin:0px; padding:0px;}
+.payment_icon { float:right;  margin-top:5px;}
+
+
+.footer_bottom_links { background-color:#636363; padding:20px 0; color:#b3b3b3;} 
+.bottom_links { text-align:center; }
+.bottom_links ul { margin:5px 0px 0px -10px; padding:0px;}
+.bottom_links li { margin:0px; padding:0px 10px; display:inline; list-style:none; border-right:1px solid #b3b3b3;}
+.bottom_links li:last-child, .bottom_links li.last { border-right:0px;}
+.bottom_links li a {color:#b3b3b3; text-decoration:none;}
+.bottom_links li a:hover { color:#FFF;}
+.bottom_links a {color:#fff; text-decoration:none;}
+.bottom_links a:hover { color:#ccc;}
+
+
+.btn_search { margin:0px; padding:0px; width:36px; height:30px; text-indent:-9999px; cursor:pointer; background:url(../images/btn_go.png) no-repeat 0 0; position:absolute; right:0; top:0px; border:0px;}
+
+.basket_header { display:none;}
+
+ /* ~~ Inner pages ~~*/
+
+.demo { width: 980px; margin: 0px auto;}
+.demo h1 { margin:33px 0 25px; line-height: 30px;}
+.demo h3 { margin: 10px 0; }
+pre { background: #fff;}
+.how-use, .content { padding: 10px; background: #F3F3F3;}
+
+#tabInfo { display: none;}
+.menu_right { float:right;}
+.menu_right2 { width:100%; float:left;}
+.menu_right2 { display:none;}
+
+
+.sidebar { float:left; width:20%;margin-left:6px; }
+.col_right { float:right; width:76%;}
+
+
+
+.products_category_box { padding-bottom:20px;}
+.products_category_box h2, .features_products_wrapper h2 { margin:0px 0px 10px 0px; padding:0px 0px 5px 0px; font-family:'oswald', oswald sans-serif; color:#0a9a59; font-size:16px; font-weight:normal; border-bottom:1px solid #e5e5e5;}
+.products_category_box  ul { margin:0px; padding:0px;}
+.products_category_box  li { margin:0px; padding:3px 0px; list-style:none;}
+.products_category_box  li a { font-size:14px; color:#000000; text-decoration:none;}
+.products_category_box  li a:hover { color:#000;}
+
+.features_products_wrapper {padding-bottom:20px;}
+
+.features_products_wrapper  ul { margin:0px; padding:0px;}
+.features_products_wrapper  li { margin:0px; padding:3px 0px; list-style:none;}
+.features_products_wrapper  li a { font-size:14px; color:#000000; text-decoration:none;}
+.features_products_wrapper  li a:hover { color:#000;}
+
+p.more_link a { font-size:14px; color:#0a9a59; text-decoration:underline; font-weight:bold;}
+p.more_link a:hover { text-decoration:none;}
+
+.special_offer_pr_box { background-color:#f6f6f8; padding:10px; margin-bottom:20px; position:relative;}
+.special_offer { position:absolute; right:0px; top:0px;}
+.special_offer_pr_box p.product_img { margin:0px; padding:20px 0px 0px 0px; text-align:center;}
+.special_offer_pr_box p.product_name { font-size:18px; color:#996666; margin:0px; padding:10px 5px 0px 5px;}
+.special_offer_pr_box p.product_name a { text-decoration:none; color:#996666;}
+
+.contact_box_left { margin:0 0 20px 0; padding:10px; background-color:#f6f6f8; font-size:12px; color:#000000; line-height:20px;}
+.contact_box_left h2 { margin:0 0 10px 0; padding:0px; font-family:'oswald', oswald sans-serif;,font-size:14px; text-transform:uppercase; font-weight:bold; color:#1f50a3;}
+.contact_box_left p { margin:0px; padding:0 0 5px 0;} 
+.contact_box_left p.comp_name { margin:0px; padding:0px; font-size:14px; color:#0a9a59; font-weight:bold;}
+.contact_box_left p.phone_no { background:url(../images/phone_icon.png) no-repeat 0 2px; padding:0 0 5px 25px;}
+.contact_box_left p.email_icon { background:url(../images/email_icon.png) no-repeat 0 2px; padding:0 0 5px 25px;}
+.contact_box_left p.email_icon a {color:#7b7676; text-decoration:none;}
+
+h1 {
+    color: #0a9a59;
+    font-family: oswald;
+}
+
+h3 {color:#1f50a3;}
+
+
+
+ /* ~~ Link properties ~~*/
+
+a {
+	text-decoration: underline;
+	padding:0;
+	margin:0;
+	outline: none;
+        color: #1f50a3;
+}
+a:hover {
+	text-decoration: none;
+}
+
+
+/* Shopping cart classes
+----------------------------------------------------------------------------------------------------*/
+
+/*Shopping cart*/
+
+table.cobtbl{
+	background-color: #efefef;
+	border-bottom:1px solid #0a9a59;
+  	font-size:0.9em;
+}
+
+
+td.cobll, td.cobhl{
+	background-color: #fff;
+	color : #333;
+}
+ 
+td.cobhdr{
+	background-color:#0a9a59;
+	font-size:1em;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+span.cartoption{
+	font-size:12px !important;
+	color:#333;
+}
+
+div.giftwrap a{
+  	color:#000000;
+  	font-size:0.8em;
+  	text-decoration:none;
+}
+
+/*Mini cart*/
+table.mincart{
+  	width:98%;
+  	font-size:1em;
+  	background:#EAEAEA;
+}
+
+.cartquant{
+	width:36px !important;
+}
+
+/*Internal store naviagtion*/
+a.ectlink:link {
+	color: #1f50a3;
+	text-decoration: none;
+}
+
+a.ectlink:visited {
+	color: #1f50a3;
+	text-decoration: none;
+}
+
+a.ectlink:active {
+	color: #1f50a3;
+	text-decoration: none;
+}
+
+a.ectlink:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+/*Button and form field styles*/
+input.buybutton, input.sccheckout, input.checkoutbutton, input.vieworderstatus, input.viewlicense, input.trackpackage{
+	background:#1f50a3;
+	color:#fff;
+	padding:6px 16px;
+	border:0;
+	border-radius:4px;
+	font-size:1.1em;
+}
+
+input.buybutton:hover, input.sccheckout:hover, input.checkoutbutton:hover, input.vieworderstatus:hover, input.viewlicense:hover, input.trackpackage:hover{
+	background:#ddd;
+	color:#000;
+	cursor:pointer;
+}
+
+input.login, input.newaffiliate, input.affiliatelogin, input.search{
+	background:#1f50a3;
+	color:#fff;
+	padding:4px 16px;
+	border:0;
+	border-radius:4px;
+	font-size:1em;
+	margin-top:6px;
+}
+
+input.login:hover, input.newaffiliate:hover, input.affiliatelogin:hover, input.search:hover{
+	background:#aaa;
+	color:#000;
+	cursor:pointer;
+}
+
+/* The category page 
+-------------------------------------*/
+div.category{
+	width:43%;
+	float:left;
+	line-height:1.6;
+  	font-size:0.9em;
+    padding:10px;
+	border:1px solid #ccc;
+	background-color:#fefefe;
+	margin:0px 0px 16px 16px;
+	height:110px;
+}
+
+div.category:hover{
+	background-color:#fff;
+	border: 1px solid #64842F;
+	box-shadow: 5px 5px 2px #ccc;
+}
+
+div.catnavigation{
+	padding:10px 0px 10px 12px;
+	float:left;
+	width:97%;
+	font-size:1em;
+	background-color:#eee;
+	border-bottom: 1px solid #0a9a59;
+	margin-bottom:2px;
+}
+
+.catnavwrapper{
+	background:#fff !important;
+	border: 1px solid #fff !important;
+}
+
+div.navdesc{
+	display:none; /* Removes the text "View all products in all categories */
+}
+
+div.catimage{
+	width:95px;
+	float:left;
+}
+
+div.catdesc{
+	padding:0px 0px 4px 4px;
+	font-size:0.9em;
+}
+
+div.catname {
+    font-family: oswald;
+    font-size: 1.2em;
+    padding-left: 4px;
+}
+
+
+div.catdiscounts, div.allcatdiscounts {
+    color: red;
+    float: left;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    width: 42%;
+}
+
+div.categorymessage{
+	padding-top:0px;
+	font-size: 1.1em;
+}
+
+p.noproducts{
+       padding-top:28px;
+       text-align:left !important;
+}
+
+
+/* The products page 
+-------------------------------------*/
+
+div.prodfilter{
+	float:left;
+	background-color:#F9F9F4;
+	border: 1px dotted #D7D1C9;
+	padding:6px;
+	color: #42619a;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+div.prodfilterbar{
+	float:left;
+	width:100%;
+}
+
+div.filtertext{
+ 	padding:8px;
+}
+
+select.prodfilter{
+	padding:0px;
+	margin:0px;
+}
+
+div.product{
+	padding:6px;
+	width:31%;
+	float:left;
+	height:180px;
+    margin: 14px 2px;
+}
+
+div.prodnavigation{
+	padding:10px 0px 10px 12px;
+	float:left;
+	width:97%;
+	font-size:0.9em;
+	background-color:#eee;
+	border-bottom: 1px solid #0a9a59;
+	margin-bottom:10px;
+}
+
+.prodratinglink{
+	font-size:0.8em;
+}
+
+div.allproddiscounts{
+	color:#DA6A1E;
+	width:100%;
+	margin-bottom:2px;
+	float:left;
+}
+
+div.detaildiscounts {
+    display: none;
+    font-size: 7px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.proddiscounts, .discountsapply {
+    color: #0a9a59;
+    padding: 4px;
+}
+
+div.prodmanufacturer{
+	color:#000000;
+	padding:6px;
+}
+
+div.prodsku{
+	color:#000000;
+	padding:6px;
+}
+
+div.prodimage{
+	padding-top: 6px;
+	text-align:center;
+	border:1px solid #ccc;
+	background-color:#fefefe;
+}
+
+
+
+div.prodimage:hover{
+	background-color:#fefefe;
+	border: 1px solid #1f50a3;
+  box-shadow: 5px 5px 2px #ccc;
+}
+
+img.prodimage{	
+}
+
+
+div.prodname {
+    font-family: oswald;
+    font-size: 1em;
+    margin-bottom: 2px;
+    padding-top: 6px;
+}
+
+div.prodrating{
+	padding-left:4px;
+}
+
+div.prodinstock{
+	padding:4px;
+	color:#000000;
+}
+
+div.proddescription{
+	padding:6px;
+	float:left;
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+
+table.emftbl{
+	background:#fff;
+	width:400px;
+}
+
+div.listprice{
+	width:98%;
+	float:none;
+	font-size: 0.9em;
+	padding-bottom:20px;
+}
+
+span.yousave{
+	background:#0065A7;
+	color:#fff;
+	padding:4px;
+	font-size:0.9em;
+}
+
+div.prodprice{
+	font-size: 1em;
+	font-weight:normal;
+	float:left;
+	width:98%;
+	color:#000000;
+	margin-top:-20px;
+}
+
+div.prodcurrency{
+	float:left;
+	width:100%;
+	font-size: 0.8em;
+	color:#000000;
+}
+
+div.quantitydiv{
+	float:right;
+}
+
+.quantityinput{
+	margin-top:1px;
+	height:19px;
+}
+
+div.addtocart{
+	text-align:center;
+	float:left;
+	width:100%;
+}
+
+.notifystock{
+	text-align:center;
+	float:left;
+	width:100%;
+}
+
+.configbutton{
+	text-align:center;
+	margin-top:6px;
+}
+
+div.outofstock{
+	text-align:center;
+	padding-top:6px;
+	font-weight:bold;
+}
+
+.prodid {
+	color:#000000;
+	padding:6px;
+	font-size: 0.9em;
+}
+
+div.multioptiontext{
+	width:180px;
+}
+
+div.pagenums{
+	text-align:center;
+	float:left;
+	padding:0px 0px 10px 0px;
+}
+
+/* The product detail page 
+-------------------------------------*/
+div.detailprodnavigation{
+	width:99%;
+}
+
+div.detailimage{
+	width:25%;
+	padding:10px;
+	float:left;
+	clear:both;
+} 
+
+div.detailcheckoutbutton{
+	clear:both;
+}
+
+div.detailid {
+	color:#000;
+	width:12%;
+	font-size: .8em;
+	float:right;
+	margin-left:10px;
+	margin-right: 10px;
+}
+
+div.detailname {
+	float:left;
+	padding:0;
+	margin:0;
+    color: #1f50a3;
+    font-family: oswald;
+    font-size: 13px;
+    letter-spacing: 0.3px;
+	margin-bottom: 3px;
+    margin-top: 8px;
+}
+
+
+.detailname h1 {
+	font-size: 1.2em;
+	font-weight:bolder;
+	padding:6px;
+	float:left;
+	width:100%;
+	margin:0px;
+	border-bottom: 1px solid #ccc;
+}
+
+span.detaildiscountsapply{
+	width:70%;
+	margin-left:36px;
+}
+
+div.detailmanufacturer{
+	float:left;
+	width:36%;
+	margin:0px;
+	padding:0px;
+	font-size: 0.8em;
+}
+
+div.detailsku{
+	float:right;
+	width:10%;
+	margin-right:10px;
+	margin-left:10px;
+	font-size:.8em;
+	color:#000;
+}
+
+div.detailinstock{
+	float:right;
+	width:76%;
+}
+
+div.detaildescription{
+	font-size: 0.9em;
+	margin:2px;
+	padding-top:1px;
+	line-height:1.8em;
+	float:left;
+	width:66%;
+}
+
+div.detailprice{
+	font-size: 1.2em;
+	font-weight:bold;
+	float:left;
+	width:21%;
+	color:#333;
+	margin-left:10px;
+}
+
+div.detaillistprice{
+	font-size: 1em;
+	font-weight:normal;
+	float:left;
+	width:21%;
+	padding-top:6px;
+	color:#DA6A1E;
+}
+
+div.detailcurrency{
+	padding-top: 6px;
+	font-size: 0.9em;
+	float:left;
+	width:98%;
+	color:#000000;
+	margin-left:10px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom:20px;
+}
+
+div.detailoption{
+	width:100%;
+}
+
+div.detailoptions{
+	padding: 6px;
+	float:left;
+	width:60%;
+	margin-left:0px;
+}
+
+select.detailprodoption{
+	font-size: 0.9em;
+	width:50%;
+	margin:7px;
+	border:1px solid #ccc;
+	padding:2px;
+}
+
+input.detailprodoption{
+	font-size: 0.9em;
+	margin:7px;
+	border:1px solid #ccc;
+  	padding:2px;
+}
+
+
+div.detailoptiontext{
+	padding: 6px;
+	width:32%;
+	float:left;
+	clear:both;
+}
+
+div.detailmultioptiontext{
+	padding: 6px;
+	width:30%;
+	clear:right;
+}
+
+.previousnext{
+	padding-top:20px;
+	padding-bottom:6px;
+	float:right;
+	width:100%;
+	text-align:center;
+	font-size:0.8em;
+	border-top:1px solid #ccc;
+}
+
+div.emailfriend{
+	padding-top: 10px;
+	text-align:center;
+	float:right;
+	width:100%;
+	font-size:0.9em;
+	clear:both;
+}
+
+td.emfhl{
+	background-color:#aaa;
+	font-size:1.2em;
+	color:#fff;
+	font-weight:bold;
+}
+
+td.emfll{
+	line-height:18px;
+}
+
+div.detailquantity{
+	float:right;
+	width:170px;
+}
+
+div.detailquantitytext{
+	margin-top:5px;
+	float:left;
+	width:30%;
+	text-align:right;
+}
+
+div.detailquantityinput{
+	margin-top:5px;
+	float:right;
+	width:50%;
+	text-align:left;
+	padding:0px;
+	height:65px;
+}
+
+#w0quant{
+	height:21px;
+	width:50px;
+	border:1px solid #ccc;
+}
+
+
+div.detailaddtocart,.detailoutofstock{
+	float:right;
+	width:48%;
+	text-align:left;
+	padding-bottom:20px;
+	margin-top:10px;
+}
+
+.detailnotifystock{
+	text-align:center;
+	padding-top:6px;
+	float:left;
+	width:98%;
+}
+
+div.navdesc{
+	padding-top:10px;
+}
+
+div.review{
+	float:left;
+	margin-top:16px;
+	width:90%;
+	font-size:0.9em;
+}
+
+hr.review{
+	height: 0;
+	border-width: 1px 0 0 0;
+	border-style: solid;
+	border-color: #bbb;
+	padding:4px;
+	margin-top:6px;
+}
+
+div.reviewprod{
+	background-color:#eee;
+	padding:10px;
+}
+
+/* This is the first breakpoint and is for screen sizes between 800 and 780 pixels. 
+If there is no difference in the classes above, you would use the classes above or if you need to make changes at this resolution, add them below ~~ */
+@media screen and (max-width: 800px) { 
+
+.menu_right { display:none;}	
+.menu_right2 { display:inherit; float: left; padding-bottom: 10px; width: 100%;}
+.menu_right2 .searchBox { float: right; margin: 15px 0 0 20px; position: relative; width: 210px;}
+.menu_right2 .basket { background: url("../images/cart_icon.png") no-repeat scroll 0 3px rgba(0, 0, 0, 0); float: left; margin-right: 10px; margin-top: 14px; padding: 5px 5px 5px 25px;}
+.logo_row {padding: 50px 15px 40px;}
+.logo_right {width: 64%;}
+.welcome_msg {clear: both; float: none; margin-right: 0; padding-top: 10px; text-align: right;}
+
+.service_section {padding: 15px 15px;}
+.nec_collection_banner { margin-top: 13px;}
+
+.icon_refresh { margin-right: 27px; margin-bottom:10px;}
+
+.searchBox {margin: 15px 15px 0 20px;}
+
+.footer_space { padding: 30px 15px 0;}
+.bottom_links { float: none; padding-left: 0; text-align: center;}
+.newsletter { float: none; margin: 20px auto; width: 345px;}
+
+div.product{
+	width:30%;
+}
+
+}
+
+/* This is the second breakpoint and is for screen sizes between 780 and 640 pixels. 
+If there is no difference in the classes above, you would use the classes above or if you need to make changes at this resolution, add them below ~~ */
+@media only screen and (max-width: 780px) {
+div.product{
+	width:46%;
+}
+
+div.category{
+	width:90%;
+}
+
+.detailname h1, span.detaildiscountsapply, div.detaildescription{
+	width:65%;
+}
+
+span.detaildiscountsapply{
+  	margin-left:44px;
+}
+        
+div.detailimage{
+	width:24%;
+}
+
+div.detailoptions{
+	width:90%;
+}
+
+ div.detailmultioptiontext{
+	width:45%;
+}
+
+
+}
+
+/* This is the third breakpoint and is for screen sizes between 640 and 500 pixels. 
+If there is no difference in the classes above, you would use the classes above or if you need to make changes at this resolution, add them below ~~ */
+@media screen and (max-width: 640px) { 
+
+h1.logo { float: none; text-align: center; margin-bottom:10px;}
+.logo_right { text-align: center; width: 100%;}
+ul.topLink {float: none;}
+ul.topLink li {display: inline; float: none; padding: 10px 0 0 15px;}
+.welcome_msg { text-align:center;}
+
+.logo_right {float: none;}
+.basket_header { padding:0px; margin-top:20px; display: block; background:none; float:none; text-align:center; clear:both;}
+.basket_header a { background:url(../images/cart_icon.png) no-repeat 0 0px; padding-left:25px;}
+
+.icon_refresh { width:100%; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */}
+
+.sidebar { float: none; margin-bottom: 20px; width: 96%; padding:0 15px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+.col_right { float: none; width: 100%; padding:0 15px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+
+}
+
+
+/* This is the fourth breakpoint and is for screen sizes between 500 and 360 pixels. 
+If there is no difference in the classes above, you would use the classes above or if you need to make changes at this resolution, add them below ~~ */
+@media screen and (max-width: 500px) { 
+div.logo{width:96%;text-align:center;}
+.logo_row { margin:0px; padding:10px 0 10px 0;}
+
+div.icon_refresh, div.icon_truck, div.icon_phone{display:none;} /* Removes the offers from the top fo home page on small displays - remove this line if you want them to appear */
+
+div.basket, div.basket_dis { float: left; margin-right: 0px; margin-top: 10px; padding: 5px;width:40%;}
+div.service_section{padding:0px; width:98%;}
+.menu_right2 .searchBox { float: right; margin: 15px 0 0 0px; position: relative; width: 160px;}
+
+.offer-banner-section .col, .offer-banner-section .col-m, .offer-banner-section .col-last {float: none; width: 100%;  text-align:center; margin-bottom:20px; margin-left:0px;}
+.offer-banner-section .col img, .offer-banner-section .col-last img { width:auto; max-width:100%;}
+
+.product_listing li {float:none; margin: 0 0 20px; width: 100%; padding:0 15px; 
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */ }
+.product_listing li .product_img_box { text-align:center;}
+.product_listing li .product_img_box a img { max-width: 100%;  width: auto;}
+.product_listing h2{text-align:center;}
+
+div.item{ width: 100%; text-align:center;}
+
+
+.footer_social_row {text-align: center; padding: 15px 0;}
+ul.footer_social_icon {float: none;}
+ul.footer_social_icon li { display: inline; float: none; padding:0;}
+.payment_icon { float: none; margin-top: 15px;}
+
+
+
+.footer_space { padding: 30px 20px 0;}
+.footer_column { float: none; margin-bottom: 15px; width: 100%;}
+
+
+
+.bottom_links ul {margin: 10px 0 0 -10px;}
+
+div.product, div.prodnavigation{
+	width:95%;
+}
+
+div.detailimage{
+	width:95%;
+}
+
+.detailname h1, span.detaildiscountsapply, div.detaildescription{
+	width:95%;
+}
+
+span.detaildiscountsapply{
+  	margin-left:10px;
+}
+
+div.detailmultioptiontext{
+	width:95%;
+}
+div.category{
+	width:85%;
+}
+
+ /* ~~ Remove left hand field on checkout ~~*/
+.cobcol1{
+  	display:none;
+}
+
+/* ~~ Modify additional info field on checkout ~~*/
+textarea.addinfo{
+	width:150px;
+}
+
+
+}
+
+
+/* This is the fifth breakpoint and is for screen sizes between 360 and below. 
+If there is no difference in the classes above, you would use the classes above or if you need to make changes at this resolution, add them below ~~ */
+@media screen and (max-width: 360px) { 
+
+.icon_phone { float:left; margin-top:10px;}
+.menu_right2 .basket { float:left;}
+.menu_right2 .searchBox { margin-left:0px;}
+.menu_right2 .searchBox {width: 90px;}
+}
+
+
+@media screen and (max-width: 320px) { 
+
+
+
+}

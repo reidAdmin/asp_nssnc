@@ -1,0 +1,333 @@
+<!doctype html>
+<html>
+<!--
+	Neuse Sports Shop Website www.nssnc.com
+    Designed by CyberSharks
+	version 1.0.0
+    15 October 2014
+	copyright (c) 2014 CyberSharks.net  (www.cybersharks.net) -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<!-- #BeginEditable "doctitle" -->
+<title>Neuse Sports Shop</title>
+<!-- #EndEditable -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="../css/nav_styles.css">
+<link href='https://fonts.googleapis.com/css?family=Exo+2:400,400italic,700' rel='stylesheet' type='text/css'>
+<!-- #BeginEditable "head" -->
+<!--#include file="vsadmin/db_conn_open.asp"-->
+<!--#include file="vsadmin/inc/languagefile.asp"-->
+<!--#include file="vsadmin/includes.asp"-->
+<!--#include file="vsadmin/inc/incfunctions.asp"-->
+<!-- #EndEditable -->
+<script src="../js/jquery-1.9.1.min.js"></script> 
+<script src="../js/easyResponsiveTabs.js" type="text/javascript"></script>
+<script src="../js/script.js"></script>
+</head>
+
+<body>
+<div class="main_wrapper">
+	<div class="header_wrapper">
+   	  <div class="logo_row">
+        	<div class="width_wrapper">
+            	<div class="logo"><a href="../default.asp"><img src="../images/logo.png"  alt=""/></a></div>
+                <div class="logo_right">
+                	
+                    <ul class="topLink">
+                        <li><a href="../clientlogin.asp">My Account</a></li>
+                        <li><a href="../tracking.asp">Tracking</a></li>
+                        <li><a href="../orderstatus.asp">Order Status</a></li>
+                        <li><a href="../affiliate.asp">Affiliates</a></li>
+                        <li><a href="../cart.asp">Checkout</a></li>
+                    </ul>
+                 <!-- <div class="welcome_msg">Come on out...</div>--> 
+                </div>
+                
+                
+                <div class="clear"></div>
+        </div>
+        </div>
+      <div class="topNav_wrapper">
+        	<div class="width_wrapper">
+          
+            	
+                <div id='cssmenu'>
+                    <ul>
+                        <li><a href="../default.asp">Home</a></li>
+
+                        <li class='has-sub'><a href="products.asp">Fishing</a>
+                        <ul>
+                           <li><a href='#'>Saltwater Fishing</a></li>
+                           <li><a href='#'>Freshwater Fishing</a></li>
+                        </ul>
+                        
+                        <li class='has-sub'><a href="products.asp">Outdoor Sports</a>
+                        <ul>
+                           <li><a href='#'>Hunting</a></li>
+                           <li><a href='#'>Archery</a></li>
+                        </ul>
+                        
+                        <li><a href="#">Boating</a></li> 
+                        <li><a href="#">Electronics</a></li> 
+                        <li><a href="#">Apparel</a></li> 
+                        <li><a href="#">Footwear</a></li> 
+                        <li><a href="#">Cooking</a></li> 
+                        <li><a href="#">Giftcards</a></li> 
+                        
+                        </li>
+                    </ul>
+                </div>
+                
+                
+              <div class="menu_right">  
+              <div class="searchBox">
+                <form method="post" action="../search.asp" id="search_mini_form">  
+                <input type="hidden" name="posted" value="1">  
+                <input type="hidden" name="nobox" value="true">                 
+                <input type="text" maxlength="128" class="search_look" value="" name="stext" id="search" autocomplete="off">
+                <button id="searc-button" class="search_btn" title="Search" type="submit">Search</button>
+   				</form>
+                </div>
+                
+                
+              <div class="basket basket_dis"> <a href="../cart.asp">Shopping Cart</a></div>
+              </div>
+                
+        </div>
+        </div>
+        <div class="service_section">
+        	<div class="width_wrapper">            
+            <div class="menu_right2">  
+            <div class="basket basket_dis"> <a href="../cart.asp">Shopping Cart</a></div>
+              <div class="searchBox">
+                <form method="post" action="../search.asp" id="search_mini_form">  
+                <input type="hidden" name="posted" value="1"> 
+                <input type="hidden" name="nobox" value="true">                  
+                <input type="text" maxlength="128" class="search_look" value="" name="stext" id="search" autocomplete="off">
+                <button id="searc-button" class="search_btn" title="Search" type="submit">Search</button>
+   				</form>
+                </div>
+                
+                
+              
+              </div>
+            	
+            	
+            
+           	  <div class="icon_refresh"><span><strong>Return &amp; Exchange</strong> in 3 working days </span></div>
+                
+              <div class="icon_truck"><strong>FREE SHIPPING</strong></div>
+                
+              <div class="icon_phone"><span><strong>Need help?</strong> +1 800 123 1234</span></div>
+                
+                <div class="clear"></div>
+                
+            </div>
+        </div>
+    	
+    </div>
+    <div class="mid_wrapper">
+
+        <div class="mid_area_space">
+        	<div class="width_wrapper">
+            
+              <article class="col_right">
+                	<div class="FL width">
+                    	
+<!-- #BeginEditable "body" -->
+   Content goes here
+<!-- #EndEditable -->   
+     
+    
+					</div>
+                
+                </article>
+                
+                
+               <aside class="sidebar">
+                	<div class="products_category_box">
+                    	<h2>OUR PRODUCTS</h2>
+                        <ul>
+	 	   		<li><a href="../proddetail.asp?prod=scanner001">Flatbed scanner</a></li>
+	       		<li><a href="../proddetail.asp?prod=fscanner001">Pro scanner</a></li>
+	           	<li><a href="../proddetail.asp?prod=palmtop001">Tablet</a></li>
+           		<li><a href="../proddetail.asp?prod=monitor001">PC monitor</a></li>
+           		<li><a href="../proddetail.asp?prod=mouse001">PC mouse</a></li>
+           		<li><a href="../proddetail.asp?prod=serialcab001">PC serial cable</a></li>
+          		<li><a href="../proddetail.asp?prod=portable001">Portable pc</a></li>
+           		<li><a href="../proddetail.asp?prod=keyboard001">PC Keyboard</a></li>
+           		<li><a href="../proddetail.asp?prod=lprinter001">Laser printer</a></li>
+          		<li><a href="../proddetail.asp?prod=pc001">PC media package</a></li>
+                        </ul>
+                    </div>
+                    
+                    
+                    <div class="contact_box_left">
+                    <!--#include file="vsadmin/inc/incminicart.asp"-->
+                    </div>
+                    
+                    <div class="features_products_wrapper">
+                    <h2>OUR SERVICES</h2>
+                    
+                    <ul class="sbSubCat">
+        				<li><a href="../about.asp">About Us</a></li>
+     					<li><a href="../search.asp">Store search</a></li>
+    					<li><a href="../giftcertificate.asp">Gift certificates</a></li>
+    					<li><a href="../about.asp">Returns Policy</a></li>
+    					<li><a href="../about.asp">Terms &amp; Conditions</a></li>
+						<li><a href="../about.asp">Help Files</a></li>
+						<li><a href="../about.asp">How To Find Us</a></li>
+	 					<li><a href="../about.asp">Contact Us</a></li>
+                    </ul>
+                    
+              </div>
+                    
+                    <div class="special_offer_pr_box">
+                    	<span class="special_offer"><img src="../images/special_offer.png" alt=""/></span>
+                        <p class="product_img"><img src="../images/special_pr_img.jpg" alt="" width="133" height="133"/></p>
+                        <p class="product_name"><a href="#">Hiking Boots</a></p>
+              		</div>
+                    
+                    <div class="contact_box_left">
+                    	<h2>Contact Us</h2>
+                        <p class="comp_name">Outdoors</p>
+                        <p>12345 My Street,<br>
+                        Somewhere near here<br>
+                        London, NY 10022</p>
+                        <p class="phone_no">+1 800 123 1234</p>
+                        <p class="email_icon"><a href="mailto:#">you@example.com</a></p>
+                    </div>
+                    
+                    
+                
+              </aside> 
+                
+                
+                
+            	<div class="clear"></div>
+            
+            
+            </div>        
+        </div>
+    </div>
+    
+    
+<div class="footer_wrapper">
+   	  <div class="width_wrapper footer_space">
+        	<div class="footer_column">
+                <h4>Shopping Guide</h4>
+                    <ul>
+                        <li class="first"><a href="#" title="How to buy">How to buy</a></li>
+                        <li><a href="#" title="FAQs">FAQs</a></li>
+                        <li><a href="#" title="Payment">Payment</a></li>
+                        <li><a href="#" title="Shipment">Shipment</a></li>
+                        <li><a href="#" title="Where is my order?">Where is my order?</a></li>
+                        <li class="last"><a href="#" title="Return policy">Return policy</a></li>
+                    </ul>
+                </div>
+            <div class="footer_column">
+            <h4>Style Advisor</h4>
+                <ul>
+                    <li><a href="#">Your Account</a></li>
+                    <li><a href="#">Information</a></li>
+                    <li><a href="#">Addresses</a></li>
+                    <li><a href="#">Discount</a></li>
+                    <li><a href="#">Orders History</a></li>
+                    <li><a href="#" >Additional Information</a></li>
+                </ul>
+            </div>
+			<div class="footer_column">
+            <h4>Information</h4>
+                <ul class="links">
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">Search Terms</a></li>
+                    <li><a href="#">Advanced Search</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Suppliers</a></li>
+                    <li><a href="#">Our stores</a></li>
+                </ul>
+            </div>
+			<div class="footer_column">
+            <h4>Orders</h4>
+            <ul>
+                <li><a href="#">Payment options</a></li>
+                <li><a href="#">Shipping and delivery</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Ordering and Tracking</a></li>
+            </ul>
+            </div> 
+        <div class="clear"></div>
+        <div class="footer_social_row">
+        	 <ul class="footer_social_icon">
+                	<li><a href="#"><img src="../images/facebook.png"  alt=""/></a></li>
+                    <li><a href="#"><img src="../images/twitter.png"  alt=""/></a></li>
+                    <li><a href="#"><img src="../images/googleplush.png"  alt=""/></a></li>
+                    <li><a href="#"><img src="../images/feed.png"  alt=""/></a></li>
+                    <li><a href="#"><img src="../images/printers.png"  alt=""/></a></li>
+                    <li><a href="#"><img src="../images/linkedin.png"  alt=""/></a></li>
+                    <li class="last"><a href="#"><img src="../images/youtube.png"  alt=""/></a></li>
+              </ul>
+        	<img src="../images/payment_icon.png" class="payment_icon"  alt=""/> 
+          <div class="clear"></div>
+        </div>
+        </div>
+        
+        
+        <div class="footer_bottom_links">
+       	  <div class="width_wrapper">
+          <div class="bottom_links">
+            	Copyright &copy; 2014 Neuse Sports Shop - All Right Reserved<br>
+                Designed & Hosted by <a href="http://www.cybersharks.net">CyberSharks.net</a><br>
+            <ul>
+                	<li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Us Accessibility</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li class="last"><a href="#">Privacy Policy</a></li>
+              </ul>
+              </div>
+             
+            </div>
+            <div class="clear"></div>
+        </div>
+        
+    
+     </div>
+    
+</div>
+
+
+
+
+
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        jQuery('#horizontalTab').easyResponsiveTabs({
+            type: 'default', //Types: default, vertical, accordion           
+            width: 'auto', //auto or any width like 600px
+            fit: true,   // 100% fit in a container
+            closed: 'accordion', // Start closed if in accordion view
+            activate: function(event) { // Callback function if tab is switched
+                var $tab = $(this);
+                var $info = $('#tabInfo');
+                var $name = $('span', $info);
+                $name.text($tab.text());
+                $info.show();
+            }
+        });
+
+        jQuery('#verticalTab').easyResponsiveTabs({
+            type: 'vertical',
+            width: 'auto',
+            fit: true
+        });
+    });
+</script>
+
+
+</body>
+</html>
